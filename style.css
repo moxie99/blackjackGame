@@ -1,0 +1,38 @@
+body {
+	background-color: seagreen;
+	font-family: 'Trebuchet MS' sans-serif;
+	color: whitesmoke;
+	text-align: center;
+	font-weight: bolder;
+}
+
+#wrapper {
+	max-height: 700px;
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: forestgreen;
+	margin: 0 auto;
+}
+
+h1{
+	color: goldenrod;
+}
+
+#message-el{
+	color: whitesmoke;
+	font-style: italic;
+}
+
+button{
+	color: snow;
+	background-color: goldenrod;
+	width: 150px;
+	border-radius: 10px;
+	border: none;
+	padding: 10px 20px;
+	margin: 5px 0;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 1.0);
+}
